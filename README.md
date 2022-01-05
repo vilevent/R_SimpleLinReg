@@ -33,7 +33,7 @@ cor.test(housing$size, housing$price, method = "kendall")
 ##### Output of the test
 
 ![KendallCorTest](https://user-images.githubusercontent.com/96803412/148124315-b8cf79fb-ee7e-43c4-92a6-3550c0b05377.PNG)
-- Positive correlation of **0.6115972**. As house size increases, price increases.
+- Positive correlation coefficient of **0.6115972**. As house size increases, price increases.
 - With a relatively small p-value, we **reject the null** at 0.05 significance level. We conclude that size and price are **correlated**.
 
 ![Scatterplot1](https://user-images.githubusercontent.com/96803412/148126168-25d903e2-b8c8-4481-a8f1-b6ee322c2772.PNG)
