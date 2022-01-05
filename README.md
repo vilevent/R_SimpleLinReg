@@ -92,6 +92,10 @@ summary(housing.linmod)
    - Since the p-value is very small, we reject the null at 0.05 significance level. We conclude that the slope coefficient is nonzero, which means that size is a **statistically significant predictor** for the regression model. *Changes in size are associated with changes in price.* 
 
 ### Model validation
+```R
+plot(housing.linmod$residuals, col = "blue", 
+     pch = 16, ylab = "Residuals", main = "Residual Plot") 
+```
 ![ResidPlot](https://user-images.githubusercontent.com/96803412/148136817-d94bae9c-e252-4368-8509-87c8f502901d.png)
 - The residuals are randomly scattered. There are no evident non-random patterns.
 - Based on that, **the model fits the data well**.
