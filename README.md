@@ -1,8 +1,8 @@
 # Simple Linear Regression with R
 > Exercise from course "R Programming for Statistics and Data Science" on Udemy
+###### *Note: I used the RStudio IDE when completing this exercise.*
 
 ### Loading the necessary packages
-
 ```R
 library(tidyverse)
 library(psych)
@@ -21,7 +21,7 @@ Here are the first couple rows of the data:
 ![firstrows](https://user-images.githubusercontent.com/96803412/148123597-87661ece-08b9-4c21-b05c-3858812851c4.PNG)
 
 
-### Exploring the data 
+### Exploring the data to find trends
 
 #### Kendall correlation test (nonparametric)
 
@@ -51,6 +51,8 @@ ggplot(housing, aes(size, price)) +
 
 ![Scatterplot3](https://user-images.githubusercontent.com/96803412/148127175-41f43e1c-c783-4750-8e28-346ce0e690e6.PNG)
 - Positive correlation between size (x) and price (y) is present among the four years.
+
+#### We will use simple linear regression for modeling the relationship between these two continuous variables (size and price).
 
 
 ### Defining the linear regression model
