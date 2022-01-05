@@ -3,7 +3,6 @@
 
 library(tidyverse)
 library(psych)
-library(ggpubr)
 
 # Load the housing data as a tibble
 housing <- read_csv("real_estate_price_size_year_view.csv")
