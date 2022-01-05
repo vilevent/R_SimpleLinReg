@@ -23,7 +23,7 @@ Here are the first couple rows of the data:
 
 ### Exploring the data 
 
-#### Kendall's correlation test (nonparametric)
+#### Kendall correlation test (nonparametric)
 
 ![Hypothesis](https://user-images.githubusercontent.com/96803412/148128025-21ec95ef-b7ae-41cc-85d7-67f2284fa17d.png)
 ```R  
